@@ -26,7 +26,7 @@ public class PrefabSpawn : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(spawnInterval);
-            Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            GameObject newBall = Instantiate(prefabToSpawn, this.transform);
             ballCounter++;
             onCounterChanged.Invoke();
         }
