@@ -19,6 +19,8 @@ This project is an assignment for a computer graphics class, built using Unity. 
 - A spherical ball generator that spits out an object on a frequency specified through a UI slider 
 - A lighting UI slider that allows you to adjust the lighting intensity in the scene
 - A generated ball counter
+- Horizontal camera movement
+- Events and triggers C# scripts
 
 ## Built With
 - Unity
