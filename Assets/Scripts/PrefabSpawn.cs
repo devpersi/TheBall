@@ -25,8 +25,9 @@ public class PrefabSpawn : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(spawnInterval);
-            GameObject newBall = Instantiate(prefabToSpawn, this.transform);
+            yield return new WaitForSeconds(spawnInterval/6);
+            /* GameObject newBall = */ Instantiate(prefabToSpawn, this.transform);
+            // newBall.tag = "ball";
             ballCounter++;
             onCounterChanged.Invoke();
         }
