@@ -7,6 +7,8 @@ public class WorldBoundsChecker : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject, 0.5f);
+        // "other": the collider of the gameobject colliding with the bounds
+        // "2f": 2 seconds delay after collision before object destruction
+        Destroy(other.gameObject, 2f);
     }
 }

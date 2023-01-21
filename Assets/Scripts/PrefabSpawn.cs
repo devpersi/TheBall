@@ -23,11 +23,17 @@ public class PrefabSpawn : MonoBehaviour
 
     IEnumerator SpawnCoroutine()
     {
+        // Need an endless loop, while is the most readable
         while (true)
         {
-            yield return new WaitForSeconds(spawnInterval/6);
+            // Wait for spawnInterval/6 seconds before running the code
+            yield return new WaitForSeconds(spawnInterval);
+
+            // Comment in below code to mess with the spawned ball's properties
             /* GameObject newBall = */ Instantiate(prefabToSpawn, this.transform);
             // newBall.tag = "ball";
+
+            // Increment the ballcount and invoke the event being listened to by the SpawnCounter script
             ballCounter++;
             onCounterChanged.Invoke();
         }

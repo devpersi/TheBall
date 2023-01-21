@@ -12,7 +12,11 @@ public class LightSlider : MonoBehaviour
     {
         Slider intensitySlider = GetComponent<Slider>();
         intensitySlider.value = targetLight.intensity;
+
+        // Call "ChangeIntensity" method only on slider value change
         intensitySlider.onValueChanged.AddListener(ChangeIntensity);
     }
+
+    // The listener passes the slider value as the value parameter
     void ChangeIntensity(float value) => targetLight.intensity = value;
 }
