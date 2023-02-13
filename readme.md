@@ -11,7 +11,7 @@ This project is an assignment for a computer graphics class, built using Unity. 
 
 ## Getting Started
 1. Clone or download the repository to your local machine
-2. Open the project in Unity 
+2. Open the project in Unity Editor 2020.3.40f1
 3. Click the play button to start the scene
 
 ## Project Features
