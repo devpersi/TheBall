@@ -1,4 +1,4 @@
-# Computer Graphics Class Unity Project
+# The Ball
 
 <figure>
   <a href="https://play.unity.com/mg/other/webgl-builds-297148"><img src="https://play-static.unity.com/20230115/p/images/eff1ea45-b224-4eff-8d0e-ec02fdb4d3f2_thumb.jpg" width="400" height="200"></a>
