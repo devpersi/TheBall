@@ -1,10 +1,5 @@
 # The Ball
 
-<figure>
-  <a href="https://play.unity.com/mg/other/webgl-builds-297148"><img src="https://play-static.unity.com/20230115/p/images/eff1ea45-b224-4eff-8d0e-ec02fdb4d3f2_thumb.jpg" width="400" height="200"></a>
-  <figcaption>Try it out on unity play!</figcaption>
-</figure>
-
 
 ## Project Description
 This project is an assignment for a computer graphics class, built using Unity. The project features a floor, a spherical ball generator that spits out an object on a frequency specified through a UI slider and a lighting UI slider.
