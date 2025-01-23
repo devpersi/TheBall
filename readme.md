@@ -1,5 +1,5 @@
 # The Ball
-This project is an assignment for a computer graphics class, built using Unity. The project features a floor, a spherical ball generator that spits out an object on a frequency specified through a UI slider and a lighting UI slider.
+This project is a simple sandbox timewaster, built using Unity. It features a floor, a spherical ball generator that spits out an object on a frequency specified through a UI slider and a lighting UI slider.
 
 ## Getting Started
 1. Clone or download the repository to your local machine
