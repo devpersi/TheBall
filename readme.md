@@ -1,7 +1,4 @@
 # The Ball
-
-
-## Project Description
 This project is an assignment for a computer graphics class, built using Unity. The project features a floor, a spherical ball generator that spits out an object on a frequency specified through a UI slider and a lighting UI slider.
 
 ## Getting Started
