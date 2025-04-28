@@ -1,14 +1,12 @@
 # The Ball
 This project is a simple sandbox timewaster, built using Unity. It features a floor, a spherical ball generator that spits out an object on a frequency specified through a UI slider and a lighting UI slider.
 
+Check it out on [unity play](https://play.unity.com/en/games/aedaa1c4-6ada-49ed-8cec-8af95df8d4b5/graphics-assignment-2-ddi123-p2015050)!
+
 ## Getting Started
 1. Clone or download the repository to your local machine
 2. Open the project in Unity Editor 2020.3.40f1
 3. Click the play button to start the scene
-
-ELSE
-
-There's an early build still working on https://play.unity.com/en/games/9f87fc73-8072-46ad-a581-7f58a46514bb/theball
 
 ## Project Features
 - A floor is provided in the scene
