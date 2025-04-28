@@ -31,10 +31,8 @@ public class BallFrequency : MonoBehaviour
         TMP_Text text = GetComponentInChildren<TMP_Text>();
 
         // Truncate digits after the 4th
-        string hzString = (1/value).ToString().Length > 4 ? 
-            (1/value).ToString().Substring(0,4) : (1/value).ToString();
-        string periodString = (value).ToString().Length > 4 ? 
-            (value).ToString().Substring(0, 4) : (value).ToString();
+        string hzString = (1/value).ToString("#.##");
+        string periodString = (value).ToString("#.##");
         text.text = $"Frequency: 1 ball per {periodString} seconds ({hzString})Hz";
     }
 }
